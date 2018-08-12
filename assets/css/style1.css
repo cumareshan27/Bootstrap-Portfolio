@@ -4,8 +4,6 @@ body {
   line-height: 34px;
   color: #777;
   background: url("../images/concrete_seamless.png");
-  margin: 0;
-  padding: 0;
 }
 
 * {
@@ -76,15 +74,26 @@ h3 {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
-}
-.logocontainer a{
-  color: white;
-  text-decoration: none;
+  padding: 0px;
 }
 
-.navcontainer {
-  margin-top: 10px;
-  margin-bottom: 0;  
+/* #logo {
+  float: left;
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+} */
+
+nav {
+  float: right;
+  margin-top: 25px;
 }
 
 nav a {
@@ -174,15 +183,11 @@ h3, h2 {
 }
 
 .auth-image {
-  /* float: left; */
-  width: 100%;
+  float: left;
+  width: 200px;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
-}
-
-.bodyimage{
-  width: 100%;
 }
 
 /* contact page */
@@ -223,34 +228,4 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
-}
-
-/* Cell Phone */
-/* @media only screen and (max-width: 640px){
-
-} */
-
-/* Tablet */
-@media only screen and (min-width: 640px){
-  .bodyimage{
-    width: 250px;
-    float: left;
-    margin-right: 25px;
-  }
-  .logocontainer {
-    float: left;
-    width:250px;
-  }
-  .navcontainer {
-    float: right;
-    margin-right: 25px;
-  }
-}
-
-/* desktop */
-@media only screen and (min-width: 769px){
-  .main-section{
-    width: 75%;
-  }
-
 }
