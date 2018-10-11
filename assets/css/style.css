@@ -20,6 +20,7 @@ body {
   margin: 0 auto;
   clear: both;
   padding: 0;
+  float: none
 }
 
 h1,
@@ -130,7 +131,7 @@ h3, h2 {
 }
 
 .main-section {
-  float: left;
+  /* float: left; */
   width: 100%;
   max-width: 960px;
   padding: 30px;
@@ -172,6 +173,8 @@ h3, h2 {
   background: #4aaaa5;
   border-bottom: 0;
 }
+
+
 
 .auth-image {
   /* float: left; */
